@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Material+Icons);
 
-body {
+body html {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
   padding-left: 5vw;
   padding-right: 5vw;
-  background: white;
+  background: #ffffff;
+  background-color: #ffffff;
 }
 
 * {
