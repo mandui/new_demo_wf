@@ -20,8 +20,10 @@ class NewDemoChannel extends ApplicationChannel {
         return Response.ok({"key": "value"});
       });
     // pure static page
-    router.route("/login/*").link(() => FileController("lib/pages/login/"));
-    router.route("/entry/*").link(() => FileController("lib/pages/entry/"));
+    router.route("/login/account/*").link(() => FileController("lib/pages/login/account_index.html"));
+    router.route("/login/id/*").link(() => FileController("lib/pages/login/id_index.html"));
+
+    router.route("/entry/*").link(() => FileController("lib/pages/login/entry.html"));
 
     router.route("/vote/*").link(() => FileController("lib/pages/vote/"));
     router.route("/account/*").link(() => FileController("lib/pages/account/"));
