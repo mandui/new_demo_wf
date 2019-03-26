@@ -23,7 +23,7 @@ class NewDemoChannel extends ApplicationChannel {
     router.route("/login/*").link(() => FileController("lib/pages/login/"));
     router.route("/entry/*").link(() => FileController("lib/pages/entry/"));
 
-    router.route("/vote/*").link(() => FileController("lib/pages/vote/"));
+    router.route("/vote/*").link(() => FileController("lib/pages/vote/index.html"));
     router.route("/account/*").link(() => FileController("lib/pages/account/"));
 
     return router;
