@@ -19,3 +19,12 @@ The default configuration file used when testing is `config.src.yaml`. This file
 ## Deploying an Application
 
 See the documentation for [Deployment](https://aqueduct.io/docs/deploy/).
+
+```dart
+import "dart:io";
+// just want to see is dart supported
+class Toy {
+  var boughtDate;
+  var price;
+}
+```
