@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>曼兑</title>
+<meta name="keywords" content="曼兑公众号" />
+<meta name="description" content="曼兑公众号" />
+<link rel="icon" href="/favicon.ico" mce_href="/favicon.ico" type="image/x-icon"/>
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="css/index.css"/>
+<link href="css/iconfont/Rjdaoico.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
+<script>
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		new WOW().init();
+	};
+	$(function(){
+		
+	});
+</script>
+</head>
+
+<body>
+
+
+
+
+<div class="log-logo">
+	<div style="height:230px;">
+    
+    <img src="images/logo.png" width="100%" height=""> </div>
+
+
+
+
+<div class="aui-code-box">
+  <div style=" height:50px; width:100%;  font-size:24px; padding-top:3%; padding-left:12px;">登录</div>
+	<form id="form1" name="form1" method="post" >
+    <div class="aui-code-line"> <i class="tp1"></i>
+         <input type="text" class="aui-code-line-input" name="username" value="" id="phone1" autocomplete="off" placeholder="请输入身份证号"/>
+     </div>
+     <div class="aui-code-line aui-code-line-clear" style="margin-bottom:20px;">
+          <i class="ym"></i>
+          
+          <i class="aui-show operate-eye-open"></i>
+          
+          <input type="password" name="password" class="aui-code-line-input password" placeholder="请输入密码" value="">
+      </div>
+      <input type="button" onclick="window.location.href='http://www.imandui.com/entry/entry.html'" class="aui-code-btn" value="查看账户信息">
+      
+  </form>
+</div>
+<div style="height: auto; width:100%;"><a href="account_index.html"><img src="images/qh.png" width="938" height="38"></a></div>
+
+</div>
+
+
+<script type="text/javascript">
+	$('.aui-show').click(function() {
+		 pass_type = $('input.password').attr('type');
+
+		if (pass_type === 'password') {
+			$('input.password').attr('type', 'text');
+			$('.aui-show').removeClass('operate-eye-open').addClass('operate-eye-close');
+		} else {
+			$('input.password').attr('type', 'password');
+			$('.aui-show').removeClass('operate-eye-close').addClass('operate-eye-open');
+		}
+	})
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
